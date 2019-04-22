@@ -11,7 +11,7 @@
     align-items: center;
     padding-left: 10px;
     font: 300 16px/1.2 'JosefinSans-Light';
-    @include min-width (320px);
+    @include min-width (340px);
 
     @media (max-width: 975px) {
         flex-direction: column;
