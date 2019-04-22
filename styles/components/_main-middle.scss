@@ -12,6 +12,7 @@
     padding-left: 10px;
     font: 300 16px/1.2 'JosefinSans-Light';
     @include min-width (320px);
+    min-height: 320px;
 
     @media (max-width: 975px) {
         flex-direction: column;
@@ -20,10 +21,6 @@
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 20px auto;
-    }
-    
-    @media (max-width: 400px) {
-        padding-right: 60px;
     }
 
     &__img {
