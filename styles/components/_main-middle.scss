@@ -14,10 +14,6 @@
     @include min-width (320px);
     min-height: 320px;
     
-    img {
-        max-width: 100%;
-        display: block;
-    }
         
 
     @media (max-width: 975px) {
